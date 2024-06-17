@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>E-Ticaret Web Sitesi Tasarımı | Merve Ekşi Butik</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--https://fonts.google.com/   google yazı tipleri eklendi-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="container">
+            <!-- Sosyal medya ikonları -->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="resim/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Anasayfa</a></li>
+                        <li><a href="">Ürünler</a></li>
+                        <li><a href="">Hakkımızda</a></li>
+                        <li><a href="">İletişim</a></li>
+                        <li><a href="">Hesabım</a></li>
+                    </ul>
+                </nav>
+                <img src="resim/cart.png" width="30px" height="30px">
+                <img src="resim/menu.png" class="menu-icon"
+                onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Hayatınıza Yeni Bir <br>Stil Verin!</h1>
+                    <p>Şık ve çok yönlü koleksiyonumuzla tarzınızı yükseltin. <br>Zamansız klasiklerden trend belirleyici parçalara kadar, 
+                    benzersiz kişiliğinizi <br>ve özgüveninizi zahmetsizce ifade etmenizi sağlayan küratörlüğünde <br>bir kadın giyim seçkisi sunuyoruz."</p>
+                    <a href="" class="btn">Şimdi Keşfet &#8594;</a> <!--https://www.toptal.com/designers/htmlarrows/  sitesinden arrow eklendi-->
+                </div>
+                <div class="col-2">
+                    <img src="resim/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- Öne Çıkan Kategoriler -------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="resim/kategori-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="resim/kategori-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="resim/kategori-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- Öne Çıkan Ürünler -------------->
+    <div class="small-container">
+        <h2 class="title ">Öne Çıkan Ürünler</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="resim/ürün-1.jpg">
+                <h4>Oversize İki Düğmeli Blazer Ceket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> <!--https://fontawesome.com/v4/   sitesinden alındı-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₺1699</p>
+            </div>
+            <div class="col-4">
+                <img src="resim/ürün-2.jpg">
+                <h4>Siyah Küt Burunlu Kısa Topuklu Ayakkabı</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₺1289</p>
+            </div>
+            <div class="col-4">
+                <img src="resim/ürün-3.jpg">
+                <h4>Lacivert Beyaz Şeritli Eşofman Sade Alt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₺459</p>
+            </div> 
+            <div class="col-4">
+                <img src="resim/ürün-4.jpg">
+                <h4>Düz Beyaz Rahat Kesim Kadın Tişört</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>₺269</p>
+                </div>      
+    </div>
+    <h2 class="title">Yeni Ürünler</h2>
+    <div class="row">
+    <div class="col-4">
+        <img src="resim/ürün-5.jpg">
+        <h4>Stiletto Siyah Parlak Sivri Burun Topuklu Ayakkabı</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>₺1899</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-6.jpg">
+        <h4>Gezegen Baskılı Mavi Tişört</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>₺299</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-7.jpg">
+        <h4>Düz Beyaz Çorap</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>₺179</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-8.jpg">
+        <h4>Gold Metal Takı Seti</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>₺2899</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-9.jpg">
+        <h4>Gold Aynalı Kolye Seti</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <p>₺3289</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-10.jpg">
+        <h4>Çiçekli Lacivert Midi Elbise</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <p>₺1699</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-11.jpg">
+        <h4>Lacivert Çizgili Kumaş Pantolon</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>₺1289</p>
+    </div>
+    <div class="col-4">
+        <img src="resim/ürün-12.jpg">
+        <h4>Beyaz Lazer Kesim Rahat Taban Ayakkabı</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </div>
+        <p>₺1799</p>
+    </div>
+    </div>
+        </div>
+    <!------------İndirim----------->
+    <div class="offer">
+        <div class="samall-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="resim/trend.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Sadece Merve Ekşi Butik'te</p>
+                    <h1>Kahverengi Ekose Şort Etek</h1>
+                    <small>Kahverengi ekose şort eteğin çok yönlülüğünü ve inceliğini Merve Ekşi Butik'te yaşayın. <br> Modaya uygun 
+                            tasarımı günlük konforla birleştiren bu olmazsa olmaz parça ile <br>tarzınızı zahmetsizce yükseltin. Modanın İşlevsellikle Buluştuğu Yer.<br></small>
+                    <a href="" class="btn">Satın Al &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------- Referans ------------>
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i> 
+                    <p>
+                        Bu butiğe kesinlikle bayılıyorum! Belki de şimdiye kadar gittiğim, gördüğüm butüklerin en iyisi, 
+                        en kalitelisi. Kıyafet seçimi modaya uygun ancak zamansız 
+                        ve kalitesi mükemmel. Her ziyaretimde gardırobuma özel bir dokunuş katan benzersiz 
+                        bir şey buluyorum. Personel her zaman güler yüzlü ve yardımseverdir, bu da alışveriş 
+                        deneyimini daha da keyifli hale getirir. Şiddetle tavsiye ederim! Memnun kalacağınızdan eminim.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="resim/kullanıcı-1.png">
+                    <h3>Neslihan İpekçi</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i> 
+                    <p>
+                        Bir erkek olarak, genellikle kadın kıyafetleri için alışveriş yapan biri değilim, 
+                        ama kız arkadaşıma bu butiğe eşlik ettim ve hoş bir sürpriz oldu. Atmosfer davetkardı 
+                        ve mağazanın düzeni gezinmeyi kolaylaştırdı. Giysinin kendisi hakkında fazla yorum yapamasam 
+                        da dekordaki detaylara gösterilen ilgiyi ve güler yüzlü hizmeti takdir ettim. Birlikte alışveriş 
+                        yapan çiftler için harika bir yer.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="resim/kullanıcı-2.png">
+                    <h3>Şükrü Haydaroğlu</h3>
+                </div><div class="col-3">
+                    <i class="fa fa-quote-left"></i> 
+                    <p>
+                        Bu butik moda ile ilgili her şey için benim tercihim! Gündelik kıyafetlerden zarif gece elbiselerine 
+                        kadar her şeye sahipler. Her şekil ve büyüklükteki kadınlara hitap eden geniş bir boyut yelpazesi sunmalarını 
+                        seviyorum. Giysilerin kalitesi göz önüne alındığında fiyatlar makul ve ara sıra yapılan satışlar ve promosyonlar bir 
+                        bonus. Bu mağazayı tüm arkadaşlarıma ve aileme tavsiye ettim!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="resim/kullanıcı-3.png">
+                    <h3>Ayşenur Güleryüz</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------- Markalar --------------------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="resim/logo.thy.png">
+            </div>
+            <div class="col-5">
+                <img src="resim/logo.isb.png">
+            </div>
+            <div class="col-5">
+                <img src="resim/logo.troy.png">
+            </div>
+            <div class="col-5">
+                <img src="resim/logo.beko.png">
+            </div>
+            <div class="col-5">
+                <img src="resim/logo.sleepy.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------- Footer/Altbilgi --------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Uygulamayı İndirin!</h3>
+                <p>Android ve İOS cep telefonu için uygulamamızı indirin.</p>
+                <div class="app-logo">
+                    <img src="resim/play-store.png">
+                    <img src="resim/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="resim/logo.pembe.png">
+                <p>Amacımız, Modanın zevkini ve ışıltısını kadınlarımıza ulaştırmaktır.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Faydalı Linkler</h3>
+                <ul>
+                    <li>Kuponlar</li>
+                    <li>Blog</li>
+                    <li>İade Koşulları</li>
+                    <li>Bağlı Kuruluşlar</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Bizi Takip Edin!</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>İnstagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Telif Hakkı 2024- Merve Ekşi Butik'e Aittir.</p>
+    </div>
+</div>
+<!--------------JS İçin Açılır Menü------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+    else{
+        MenuItems.style.maxHeight = "0px";
+    }
+    }
+</script>
+    </body>
+</html>
